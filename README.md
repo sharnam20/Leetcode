@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0242-valid-anagram](https://github.com/sharnam20/Leetcode/tree/master/0242-valid-anagram) |
 | [0523-continuous-subarray-sum](https://github.com/sharnam20/Leetcode/tree/master/0523-continuous-subarray-sum) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/sharnam20/Leetcode/tree/master/0974-subarray-sums-divisible-by-k) |
 ## String
 |  |
 | ------- |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/sharnam20/Leetcode/tree/master/0523-continuous-subarray-sum) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/sharnam20/Leetcode/tree/master/0974-subarray-sums-divisible-by-k) |
 ## Math
 |  |
 | ------- |
@@ -33,4 +35,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/sharnam20/Leetcode/tree/master/0523-continuous-subarray-sum) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/sharnam20/Leetcode/tree/master/0974-subarray-sums-divisible-by-k) |
 <!---LeetCode Topics End-->
