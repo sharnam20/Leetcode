@@ -22,8 +22,9 @@ public:
                 ans.push_back(i);
                }
                s1[s[i]]--;
+// most imp bcz in both map equal when char and key same so when char freq is 0than we remove char from that map
                if (s1[s[i]] == 0) {
-                s1.erase(s[i]);
+                s1.erase(s[i]); 
                  }
                i++,j++;
         }
