@@ -35,12 +35,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/sharnam20/Leetcode/tree/master/0125-valid-palindrome) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/sharnam20/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0349-intersection-of-two-arrays](https://github.com/sharnam20/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 ## Array
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/sharnam20/Leetcode/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/sharnam20/Leetcode/tree/master/0014-longest-common-prefix) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/sharnam20/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/sharnam20/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/sharnam20/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/sharnam20/Leetcode/tree/master/0239-sliding-window-maximum) |
@@ -72,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/sharnam20/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/sharnam20/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0349-intersection-of-two-arrays](https://github.com/sharnam20/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [1004-max-consecutive-ones-iii](https://github.com/sharnam20/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
