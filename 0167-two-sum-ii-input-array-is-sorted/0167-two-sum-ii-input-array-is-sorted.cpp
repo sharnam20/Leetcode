@@ -1,22 +1,15 @@
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+    vector<int> twoSum(vector<int>& numbers, int target) {
+        int i = 0, j = numbers.size() - 1;
 
-        unordered_map<int, int> mp;   // prefix hashmap: value → index
+        while(i < j){
+            int sum = numbers[i] + numbers[j];
 
-        for (int i = 0; i < nums.size(); i++) {
-            int need = target - nums[i];
-
-            // prefix check (have we seen 'need' before?)
-            if (mp.count(need)) {
-                return { mp[need]+1, i+1 };
-            }
-
-            // store current value as prefix
-            mp[nums[i]] = i;
+            if(sum == target) return {i+1, j+1};
+            else if(sum > target) j--;
+            else i++;
         }
-
         return {};
     }
 };
-
