@@ -1,0 +1,27 @@
+class Solution {
+public:
+    bool check(string &s, int i, int j) {
+        while (i < j) {
+            if (s[i] != s[j]) return false;
+            i++;
+            j--;
+        }
+        return true;
+    }
+
+    bool validPalindrome(string s) {
+        int i = 0;
+        int j = s.length() - 1;
+
+        while (i < j) {
+            if (s[i] == s[j]) {
+                i++;
+                j--;
+            } else {
+                // ONLY CHANGE: try skipping left OR right
+                return check(s, i + 1, j) || check(s, i, j - 1);
+            }
+        }
+        return true;
+    }
+};
