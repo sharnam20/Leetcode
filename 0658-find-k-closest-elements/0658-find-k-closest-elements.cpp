@@ -18,7 +18,7 @@ public:
         // Now:
         // end -> index of last element <= x
         int left = end;
-        int right = end + 1;
+        int right = start;
 
         vector<int> ans;
 
