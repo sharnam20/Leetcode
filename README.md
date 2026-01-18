@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0974-subarray-sums-divisible-by-k](https://github.com/sharnam20/Leetcode/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0977-squares-of-a-sorted-array](https://github.com/sharnam20/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/sharnam20/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
+| [1095-find-in-mountain-array](https://github.com/sharnam20/Leetcode/tree/master/1095-find-in-mountain-array) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/sharnam20/Leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Math
 |  |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/sharnam20/Leetcode/tree/master/0704-binary-search) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/sharnam20/Leetcode/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [1004-max-consecutive-ones-iii](https://github.com/sharnam20/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
+| [1095-find-in-mountain-array](https://github.com/sharnam20/Leetcode/tree/master/1095-find-in-mountain-array) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/sharnam20/Leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Trie
 |  |
@@ -208,4 +210,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/sharnam20/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+## Interactive
+|  |
+| ------- |
+| [1095-find-in-mountain-array](https://github.com/sharnam20/Leetcode/tree/master/1095-find-in-mountain-array) |
 <!---LeetCode Topics End-->
