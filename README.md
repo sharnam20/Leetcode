@@ -236,4 +236,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/sharnam20/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/sharnam20/Leetcode/tree/master/0137-single-number-ii) |
+## Linked List
+|  |
+| ------- |
+| [0707-design-linked-list](https://github.com/sharnam20/Leetcode/tree/master/0707-design-linked-list) |
+## Design
+|  |
+| ------- |
+| [0707-design-linked-list](https://github.com/sharnam20/Leetcode/tree/master/0707-design-linked-list) |
 <!---LeetCode Topics End-->
