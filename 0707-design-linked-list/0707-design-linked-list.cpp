@@ -1,60 +1,130 @@
 class MyLinkedList {
-    ListNode* head;
-    int size;
-
 public:
+    
+    class Node {
+    public:
+        int val;
+        Node* next;
+        Node* prev;
+        
+        Node(int x) {
+            val = x;
+            next = NULL;
+            prev = NULL;
+        }
+    };
+    
+    Node* head;
+    Node* tail;
+    int size;
+    
     MyLinkedList() {
-        head = new ListNode(0);   // dummy node
+        head = NULL;
+        tail = NULL;
         size = 0;
     }
     
     int get(int index) {
-        if(index < 0 || index >= size){
+        if(index < 0 || index >= size)
             return -1;
-        }
-        ListNode* curr = head;
-        for(int i = 0; i <= index; i++){
-            curr = curr->next;
-        }
-        return curr->val;
+        
+        Node* temp = head;
+        for(int i = 0; i < index; i++)
+            temp = temp->next;
+        
+        return temp->val;
     }
     
     void addAtHead(int val) {
-        addAtIndex(0, val);
+        Node* newNode = new Node(val);
+        
+        if(size == 0) {
+            head = tail = newNode;
+        } else {
+            newNode->next = head;
+            head->prev = newNode;
+            head = newNode;
+        }
+        size++;
     }
     
     void addAtTail(int val) {
-        addAtIndex(size, val);
+        Node* newNode = new Node(val);
+        
+        if(size == 0) {
+            head = tail = newNode;
+        } else {
+            tail->next = newNode;
+            newNode->prev = tail;
+            tail = newNode;
+        }
+        size++;
     }
     
     void addAtIndex(int index, int val) {
-        if(index < 0 || index > size){
+        if(index < 0 || index > size)
+            return;
+        
+        if(index == 0) {
+            addAtHead(val);
             return;
         }
         
-        ListNode* curr = head;
-        for(int i = 0; i < index; i++){
-            curr = curr->next;
+        if(index == size) {
+            addAtTail(val);
+            return;
         }
         
-        ListNode* newNode = new ListNode(val);
-        newNode->next = curr->next;
-        curr->next = newNode;
+        Node* temp = head;
+        for(int i = 0; i < index - 1; i++)
+            temp = temp->next;
+        
+        Node* newNode = new Node(val);
+        
+        newNode->next = temp->next;
+        newNode->prev = temp;
+        
+        temp->next->prev = newNode;
+        temp->next = newNode;
+        
         size++;
     }
     
     void deleteAtIndex(int index) {
-        if(index < 0 || index >= size){
+        if(index < 0 || index >= size)
+            return;
+        
+        if(index == 0) {
+            Node* temp = head;
+            head = head->next;
+            
+            if(head != NULL)
+                head->prev = NULL;
+            else
+                tail = NULL;
+            
+            delete temp;
+            size--;
             return;
         }
         
-        ListNode* curr = head;
-        for(int i = 0; i < index; i++){
-            curr = curr->next;
+        if(index == size - 1) {
+            Node* temp = tail;
+            tail = tail->prev;
+            tail->next = NULL;
+            
+            delete temp;
+            size--;
+            return;
         }
         
-        ListNode* temp = curr->next;
-        curr->next = temp->next;
+        Node* temp = head;
+        for(int i = 0; i < index; i++)
+            temp = temp->next;
+        
+        temp->prev->next = temp->next;
+        temp->next->prev = temp->prev;
+        
         delete temp;
         size--;
     }
