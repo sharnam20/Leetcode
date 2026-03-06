@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/sharnam20/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/sharnam20/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/sharnam20/Leetcode/tree/master/0974-subarray-sums-divisible-by-k) |
+| [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/sharnam20/Leetcode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
 ## String
 |  |
 | ------- |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/sharnam20/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/sharnam20/Leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/sharnam20/Leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
+| [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/sharnam20/Leetcode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
 ## Math
 |  |
 | ------- |
@@ -263,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0328-odd-even-linked-list](https://github.com/sharnam20/Leetcode/tree/master/0328-odd-even-linked-list) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/sharnam20/Leetcode/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0707-design-linked-list](https://github.com/sharnam20/Leetcode/tree/master/0707-design-linked-list) |
+| [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/sharnam20/Leetcode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
 ## Design
 |  |
 | ------- |
