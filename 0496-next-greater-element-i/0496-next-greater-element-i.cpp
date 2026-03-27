@@ -12,7 +12,7 @@ public:
                 mp[nums2[i]]=st.top();
             }
             else  if(st.size()>0 && st.top()<nums2[i]){
-                while(st.size()>0 && st.top()<nums2[i]){
+                while(st.size()>0 && st.top()<=nums2[i]){
                     st.pop();
                 }
                  if(st.size()==0){
