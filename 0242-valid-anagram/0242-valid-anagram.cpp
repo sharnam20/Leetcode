@@ -1,23 +1,25 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        if (s.length() != t.length())
+        unordered_map<char,int>mp;
+        if(t.length()<s.length()){
             return false;
-
-        unordered_map<char, int> mp;
-
-        // store all characters of s
-        for (int i = 0; i < s.length(); i++) {
-            mp[s[i]]++;
         }
-
-        // decrease count using t
-        for (int i = 0; i < t.length(); i++) {
-            mp[t[i]]--;
-            if (mp[t[i]] < 0)
-                return false;
+        for(int i=0;i<t.length();i++){
+            mp[t[i]]++;
         }
-
-        return true;
+        for(int i=0;i<s.length();i++){
+            if(mp.find(s[i])!=mp.end()){
+                mp[s[i]]--;
+                if(mp[s[i]]==0){
+                    mp.erase(s[i]);
+                }
+            }
+            
+        }
+        if(mp.empty()){
+            return true;
+        }else{
+        return false;}
     }
 };
