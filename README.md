@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/sharnam20/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/sharnam20/Leetcode/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/sharnam20/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/sharnam20/Leetcode/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/sharnam20/Leetcode/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/sharnam20/Leetcode/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/sharnam20/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/sharnam20/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/sharnam20/Leetcode/tree/master/0053-maximum-subarray) |
 | [0516-longest-palindromic-subsequence](https://github.com/sharnam20/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 ## Stack
 |  |
@@ -272,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/sharnam20/Leetcode/tree/master/0053-maximum-subarray) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/sharnam20/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 ## Tree
 |  |
